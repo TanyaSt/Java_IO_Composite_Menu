@@ -1,0 +1,10 @@
+package com.telran.json;
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target({ElementType.FIELD})
+public @interface JsonFormat {
+    String value();
+}
+
